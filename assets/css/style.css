@@ -749,7 +749,7 @@ main {
 }
 
 .clients-item img {
-  height: 100%;
+  wdith: 50%;
   filter: grayscale(1);
   transition: var(--transition-1);
 }

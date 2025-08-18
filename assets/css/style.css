@@ -748,10 +748,11 @@ main {
   scroll-snap-align: start;
 }
 
-.clients-item img {
-  width: 100%;
-  filter: grayscale(1);
-  transition: var(--transition-1);
+.clients-list img{
+  height: 56px; /* хүссэн нэг өндрөө сонго */
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(100%);
 }
 
 .clients-item img:hover { filter: grayscale(0); }

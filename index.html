@@ -716,6 +716,25 @@ on web browsers, mobile and AR/VR devices.
   </a>
 </li>  
 
+
+            <li class="project-item active" data-filter-item data-category="posters">
+  <a href="https://www.youtube.com/watch?v=Xg5GIImtREw"
+     class="glightbox"
+     data-gallery="portfolio"
+     data-type="video"
+     data-title="One One Chips 3">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="play-circle-outline"></ion-icon>
+      </div>
+      <!-- Poster зураг дээр preview thumbnail гарч байна -->
+      <img src="https://i.ytimg.com/vi/YOUR_VIDEO_ID/hqdefault.jpg"
+           alt="One One Chips 3" loading="lazy">
+    </figure>
+    <h3 class="project-title">One One Chips 3</h3>
+    <p class="project-category">Posters</p>
+  </a>
+</li>
           </ul>
 
         </section>
@@ -986,5 +1005,11 @@ on web browsers, mobile and AR/VR devices.
 <script>
   const lightbox = GLightbox({ selector: '.glightbox' });
 </script>
-
+<script>
+  const lightbox = GLightbox({
+    selector: '.glightbox',
+    touchNavigation: true,
+    autoplayVideos: true,
+  });
+</script>
 </html>

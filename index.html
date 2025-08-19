@@ -1,5 +1,6 @@
 ф<!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 
 <head>
   <meta charset="UTF-8">
@@ -590,24 +591,21 @@ on web browsers, mobile and AR/VR devices.
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="./assets/images/project-1.jpg">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
+           <li class="project-item active" data-filter-item data-category="web design">
+  <a href="./assets/images/project-3.jpg"
+     class="glightbox"
+     data-gallery="portfolio"
+     data-title="Fundo">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+      <img src="./assets/images/project-3.jpg" alt="Fundo" loading="lazy">
+    </figure>
+    <h3 class="project-title">Fundo</h3>
+    <p class="project-category">Web design</p>
+  </a>
+</li>
             <li class="project-item  active" data-filter-item data-category="web development">
               <a href="#">
 
@@ -1018,5 +1016,9 @@ on web browsers, mobile and AR/VR devices.
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  const lightbox = GLightbox({ selector: '.glightbox' });
+</script>
 
 </html>

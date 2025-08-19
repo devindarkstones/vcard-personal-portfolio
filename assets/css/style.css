@@ -122,7 +122,6 @@
 *, *::before, *::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 a { text-decoration: none; }
@@ -936,7 +935,7 @@ main {
 .project-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 30px;
+  gap: 80px;
   margin-bottom: 10px;
 }
 
